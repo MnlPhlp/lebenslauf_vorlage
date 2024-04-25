@@ -1,0 +1,31 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+\usepackage[scale=0.75]{geometry}
+\setlength{\footskip}{100pt}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+
+\usepackage[ngerman]{babel}
+\setlength{\hintscolumnwidth}{3cm}  
+\usepackage{lipsum}
+
+\input{personal_data}
+
+\begin{document}
+
+\makecvtitle
+
+\input{anschreiben}
+
+\input{erfahrung}
+\input{ausbildung}
+\input{skills}
+
+\end{document}
